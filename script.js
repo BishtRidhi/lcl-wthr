@@ -1,3 +1,8 @@
+var gmapsKey = "AIzaSyAyZU2a3MVOHZdzPhz-rr2BkTwK8mmMQNo";
+var owKey = "98310c44c00378e11f092a57b0514137";
+var lastFmKey = "a206efc1be7206b9ca850eeb6acf2575";
+
+
 // Grab the latitude & longitude
 $.getJSON("https://ipapi.co/json/", function(ipAPI) {
   var latitude = ipAPI.latitude;
